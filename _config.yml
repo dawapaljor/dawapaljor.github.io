@@ -1,0 +1,28 @@
+title: རྒྱང་མིག
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+
+url: ''
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: Gyangmig
+   twitter: Gyangmig
+   facebook: Gyangmig
+   email: gyangmig@gmail.com
+
+google_analytics: " "
