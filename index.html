@@ -4,36 +4,46 @@ title: Gyangmig
 ---
 <div class="home grid" id="home">
   <div class="grid-box" id="box1">
-    <a id="box1-link" href="infographics">
       <h4>Infographic</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsam iusto nihil at blanditiis, recusandae quis nostrum quas eligendi impedit officia delectus cupiditate consequuntur eaque labore! Iste et harum, fugit.
       </p>
+    <a  href="infographics">
+    <div class="grid-link">
+      Read More
+    </div>
     </a>
   </div>
 
   <div class="grid-box" id="box2">
-    <a id="box2-link" href="justdiscription">
       <h4>Just Description</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsam iusto nihil at blanditiis, recusandae quis nostrum quas eligendi impedit officia delectus cupiditate consequuntur eaque labore! Iste et harum, fugit.
       </p>
+      <a id="box2-link" href="justdiscription">
+        <div class="grid-link">
+          Read More
+        </div>
     </a>
   </div>
 
   <div class="grid-box" id="box3">
-    <a id="box3-link" href="justexample">
+    
       <h4>Just Example</h4>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste ipsam iusto nihil at blanditiis, recusandae quis nostrum quas eligendi impedit officia delectus cupiditate consequuntur eaque labore! Iste et harum, fugit.
       </p>
-    </a>
+      <a id="box3-link" href="justexample">
+         <div class="grid-link">
+          Read More
+        </div>
+      </a>
   </div>
 
 </div>
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
+  <h1 class="pageTitle">Blogs</h1>
   <ul class="posts noList">
     {% for post in paginator.posts %}
       <li>
