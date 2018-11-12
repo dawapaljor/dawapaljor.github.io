@@ -1,4 +1,4 @@
-title: རྒྱང་མིག
+title:  འཛུགས་བསྐྲུན་རྣམ་གྲངས་ཀྱི་ཐད་ལ་སྤེལ་བའི་ལས་འགུལ།
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 url: ''
@@ -12,12 +12,9 @@ gems: [jekyll-paginate]
 paginate: 5
 
 navigation:
- - title: Home
+ - title: མདུན་ངོས
    url: /index.html
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
+
 
 social:
    github: Gyangmig
