@@ -633,7 +633,7 @@ dd{margin:0 0 1.5rem}
 	}
 	.header h1{
 		font-size:1.5em;
-		line-height:1;
+		
 		padding-left:0;
 		font-weight: normal;
 		}
@@ -736,15 +736,11 @@ dd{margin:0 0 1.5rem}
 
 
 /*-----------------------Grid Box--------------------- */
-.grid-full{width:50%;margin:0px auto;}
+.grid-full{width:100%;margin:0px auto;}
 .grid-full a{text-align: center;text-decoration: none}
 .button-long{margin:0px auto;
 			}
-
-.grid{display: grid;
-	grid-template-rows:auto auto auto;
-	grid-gap:40px;
-}
+.grid-full{margin-top:20px;}
 
 .grid .grid-box{
 	padding: 10px;
@@ -777,8 +773,19 @@ color:#2e8b57;}
 	.container{max-width:1200px}
 .container{width:3000px;}
 .grid{display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns:350px 350px 350px;
 	grid-gap:40px;
 }
+}
+@media only screen and (max-width:600px){
+	body{font-size:137.5%}
+	.container{max-width:100%}
+.container{width:100%}
+.grid{display: grid;
+	grid-template-rows: auto auto auto;
+	grid-gap:40px;
+}
+.header{height:10em;}
+.grid-full{margin-top:20px;}
 }
 
