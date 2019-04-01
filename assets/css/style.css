@@ -140,6 +140,7 @@ blockquote{
 			line-height:1.45833333
 			}
 	}
+	.model-full{padding:60px;}
 .clearfix{zoom:1}
 .clearfix:after,
 .clearfix:before{
@@ -471,6 +472,7 @@ dd{margin:0 0 1.5rem}
 	font-family:qomo-title;
 	font-weight:800;
 	text-transform:uppercase
+	text-shadow:2px 2px 10px black;
 	}
 .header h1 a{color:#fff;text-decoration:none}
 .post .postTitle{text-align:center;margin-top:2rem;margin-bottom:1rem}
@@ -607,6 +609,7 @@ dd{margin:0 0 1.5rem}
 		-webkit-transform-origin:bottom left;
 		transform-origin:bottom left;
 	}
+
 .container{
 	max-width:1200px;
 	margin-left:auto;
@@ -633,7 +636,7 @@ dd{margin:0 0 1.5rem}
 	}
 	.header h1{
 		font-size:1.5em;
-		
+		text-shadow:2px 2px 10px black;
 		padding-left:0;
 		font-weight: normal;
 		}
@@ -646,13 +649,15 @@ dd{margin:0 0 1.5rem}
 		line-height:3em;
 		background:none;
 		padding:0 5px;
-		border:none
+		border:none;
+		text-shadow:2px 2px 10px black;
 		}
 	.header nav ul li a{
 		color:#fff;
 		font-size:.9em;
 		text-decoration:none;
 		padding:0 .25em
+		text-shadow:2px 2px 10px black;
 
 		}
 	.header nav ul li a:hover{color:#ccc}
@@ -740,8 +745,7 @@ dd{margin:0 0 1.5rem}
 .grid-full a{text-align: center;text-decoration: none}
 .button-long{margin:0px auto;
 			}
-.grid-full{margin-top:20px;}
-
+.grid-full{margin-top:20px;padding:30px auto;}
 .grid .grid-box{
 	padding: 10px;
 	background-color: #2e8b57;
@@ -766,26 +770,30 @@ dd{margin:0 0 1.5rem}
 }
 .grid-link:hover{background:white;
 color:#2e8b57;}
+
 /*-----------------------Grid Box Ends--------------------- */
 
 @media only screen and (min-width:1200px){
 	body{font-size:137.5%}
 	.container{max-width:1200px}
-.container{width:3000px;}
-.grid{display: grid;
-	grid-template-columns:350px 350px 350px;
-	grid-gap:40px;
-}
+	.container{width:3000px;}
+	.grid{display: grid;
+		grid-template-columns:350px 350px 350px;
+		grid-gap:40px;
+	}
+	.grid-full {padding:40px;}
+
 }
 @media only screen and (max-width:600px){
 	body{font-size:137.5%}
 	.container{max-width:100%}
-.container{width:100%}
-.grid{display: grid;
-	grid-template-rows: auto auto auto;
-	grid-gap:40px;
-}
+	.container{width:100%}
+	.grid{display: grid;
+		grid-template-rows: auto auto auto;
+		grid-gap:40px;
+	}
 .header{height:10em;}
-.grid-full{margin-top:20px;}
+.grid-full{margin-top:60px;}
+
 }
 
